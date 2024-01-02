@@ -1,0 +1,83 @@
+[
+    {
+        "username": "User5",
+        "password": "$2y$12$60zkl6RtUK2bv.ErXlHmW.5abnK4TTpLBqL\/NTfNYOfq9XRokUs3.",
+        "email": "testEmail@email.com",
+        "updated_at": "2024-01-01T00:00:00.000000Z",
+        "created_at": "2024-01-01T00:00:00.000000Z",
+        "id_User": 4,
+        "roles": [
+            {
+                "RoleName": "User",
+                "RoleDescription": "User and Writer",
+                "id_Role": 2,
+                "pivot": {
+                    "fk_Userid_User": 4,
+                    "fk_Roleid_Role": 2
+                }
+            }
+        ]
+    }, {
+        "username": "asd",
+        "password": "$2y$12$lz\/pUBlK2DZBsCwVCWchneVmQMNFTOWXh..0iUAzeLjOLgn1jbTa2",
+        "email": "asd@asd.com",
+        "updated_at": "2024-01-01T00:00:00.000000Z",
+        "created_at": "2024-01-01T00:00:00.000000Z",
+        "id_User": 5,
+        "roles": [
+            {
+                "RoleName": "User",
+                "RoleDescription": "User and Writer",
+                "id_Role": 2,
+                "pivot": {
+                    "fk_Userid_User": 5,
+                    "fk_Roleid_Role": 2
+                }
+            }
+        ]
+    }, {
+        "username": "Admin",
+        "password": "$2y$12$ZqctE5L0SHZgxqa3MhPgE.JP8ALgDneh\/2LyvApDHpPnojPzo8hqq",
+        "email": "BletasChee@gmail.com",
+        "updated_at": "2024-01-01T00:00:00.000000Z",
+        "created_at": "2024-01-01T00:00:00.000000Z",
+        "id_User": 6,
+        "roles": [
+            {
+                "RoleName": "Admin",
+                "RoleDescription": "Administrator",
+                "id_Role": 1,
+                "pivot": {
+                    "fk_Userid_User": 6,
+                    "fk_Roleid_Role": 1
+                }
+            }, {
+                "RoleName": "User",
+                "RoleDescription": "User and Writer",
+                "id_Role": 2,
+                "pivot": {
+                    "fk_Userid_User": 6,
+                    "fk_Roleid_Role": 2
+                }
+            }
+        ]
+    }, {
+        "username": "asd",
+        "password": "$2y$12$ON8P56zqiHNCgvS4RxEMa.4gOZhEGKfOaipLZl2QeRUs2QYzrLi8S",
+        "email": "test@test.com",
+        "updated_at": "2024-01-01T00:00:00.000000Z",
+        "created_at": "2024-01-01T00:00:00.000000Z",
+        "id_User": 7,
+        "roles": [
+            {
+                "RoleName": "User",
+                "RoleDescription": "User and Writer",
+                "id_Role": 2,
+                "pivot": {
+                    "fk_Userid_User": 7,
+                    "fk_Roleid_Role": 2
+                }
+            }
+        ]
+    }
+]
